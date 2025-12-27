@@ -30,7 +30,7 @@ But they ignore a critical production reality: **resources cost money**.
 
 ### The Real-World Problem
 
-While building CIAI (a high-throughput transaction processing system handling 10K+ TPS), I encountered this scenario:
+While building CIAI , I encountered this scenario:
 
 - **API quota limits:** 1000 calls/minute to external services
 - **Compute budget:** Fixed monthly cloud spend
