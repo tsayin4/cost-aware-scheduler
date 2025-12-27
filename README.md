@@ -351,6 +351,12 @@ if self._current_executing >= self._max_concurrent:
     return None  # Defer even if budget available
 ```
 
+## Design Philosophy
+
+**Design note:** [Why this scheduler is intentionally NOT distributed](docs/why-not-distributed.md)
+
+This architectural choice reflects a deliberate prioritization of correctness and debuggability over premature scalability.
+
 ## At Scale / Production Considerations
 
 ### Current Implementation (Single Process)
